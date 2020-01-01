@@ -13,18 +13,18 @@ import {
     Row, Grid, Text,
     TabContent, View, ScrollableTab, ActionSheet, TabHeading, TabContainer, DefaultTabBar,
     Segment, Root, SwipeRow, Accordion,
-    /* mapPropsToStyleNames, VueNativeBase getTheme, variables, StyleProvider, connectStyle,*/
+    /* mapPropsToStyleNames, VueNativeBase getTheme, variables, StyleProvider, connectStyle, */
 } from 'native-base';
 import SvgUri from 'react-native-svg-uri';
 
 
-export const TestSvgUri = () => (
-    // <SvgUri width="200" height="200"
-    //   source={ __DEV__
-    //       ? { uri:'http://thenewcode.com/assets/images/thumbnails/homer-simpson.svg' } //development
-    //       : require('../assets/images/nope.svg') //production
-    // }/>
-);
+// export const TestSvgUri = () => (
+//     <SvgUri width="200" height="200"
+//       source={ __DEV__
+//           ? { uri:'http://thenewcode.com/assets/images/thumbnails/homer-simpson.svg' } //development
+//           : require('../assets/images/nope.svg') //production
+//     }/>
+// );
 
 export const TabComp = () => (
   <Button />
